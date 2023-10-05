@@ -1,36 +1,6 @@
-.focus-logo {
-    color: #2196F3;
-}
-.nav-bar{
-    list-style: none;
-}
-#studio{
-    color: #2196F3;
-    text-decoration: none;
-}
-#email {
-    color: #2196F3;
-}
-.nav{
-    text-decoration: none;
-    color: #212121;
-}
-#phone-number{
-    color: #757575;
-    text-decoration: none;
-}
-.contact {
-    list-style: none;
-}
-#effectual-decision {
-    background-color: #2F303A;
-}
-#footer-of-site {
-    background-color:#2F303A;
-}
-#main-title{
-    color: #ffffff;
-}
-#footer-of-site > .logo{
-    color: #ffffff;
+:root{
+    --acceent-color: #2196F3;
+    --main-color: #212121;
+    --add-color: #757575;
+    --bg-cololr: #2F303A;
 }
