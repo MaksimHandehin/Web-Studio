@@ -1,0 +1,76 @@
+:root {
+    --acceent-color: #2196F3;
+    --main-color: #212121;
+    --add-color: #757575;
+    --bg-cololr: #2F303A;
+}
+body {
+    font-family: 'Roboto';
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+.focus-logo {
+    color: var(--acceent-color);    
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.nav-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.nav-contacts-link {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.hero-btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+}
+.product-title {
+    font-size: 18px;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+.product-info {
+    color: #757575;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+}
+.footer {
+    background: var(--bg-cololr);
+}
+.footer-logo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+.blue-part-logo {
+    color: #2196F3;
+    font-weight: 700;
+}
+.footer-street {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.footer-email, .footer-phone {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
