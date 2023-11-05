@@ -26,11 +26,17 @@ body {
     letter-spacing: 0.28px;
     text-decoration: none;
 }
+.nav-link:focus{
+    color: var(--acceent-color);
+}
 .contact-link {
     color: var(--add-color);
     font-size: 14px;
     letter-spacing: 0.28px;
     text-decoration: none;
+}
+.contact-link:hover {
+    color: var(--acceent-color);
 }
 .hero {
     background-color: #2F303A;
