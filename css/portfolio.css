@@ -25,7 +25,7 @@ body {
     letter-spacing: 0.28px;
     text-decoration: none;
 }
-.nav-link:focus {
+.nav-link:focus, .nav-link:hover {
     color: var(--acceent-color);
 }
 .contact-link {
@@ -34,7 +34,7 @@ body {
     letter-spacing: 0.28px;
     text-decoration: none;
 }
-.contact-link:hover {
+.contact-link:focus, .contact-link:hover {
     color: var(--acceent-color);
 }
 .filter-btn {
@@ -44,12 +44,12 @@ body {
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
 }
-.product-title {
+.projects-title {
     font-size: 18px;
     line-height: 36px; /* 200% */
     letter-spacing: 1.08px;
 }
-.product-info {
+.projects-info {
     color: #757575;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.48px;
