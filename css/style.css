@@ -50,8 +50,8 @@ img {
     padding: 0 15px;
 }
 .header {
-  padding-top: 32px;
-  padding-bottom: 94px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo {
   font-family: Raleway;
@@ -88,7 +88,7 @@ img {
 .hero {
   background-color: #2f303a;
   padding-top: 350px;
-  padding-bottom: 210px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: #fff;
@@ -162,11 +162,12 @@ img {
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   color: #fff;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 }
 .footer-contact {
   color: var(--add-color);
