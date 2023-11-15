@@ -58,6 +58,10 @@ img {
   font-size: 26px;
   letter-spacing: 0.78px;
   padding-top: 24px;
+  padding-bottom: 25px;
+}
+.logo:visited{
+  color: #000;
 }
 .first-part-logo {
   color: var(--acceent-color);
@@ -86,8 +90,9 @@ img {
   color: var(--acceent-color);
 }
 .hero {
+  /*как я понял надо вверхний падинг измерять от текста а нижний от кнопки. Вроди и там и там по 200рх*/
   background-color: #2f303a;
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 .hero-title {
