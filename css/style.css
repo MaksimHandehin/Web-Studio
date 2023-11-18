@@ -4,6 +4,12 @@
   --add-color: #757575;
   --bg-cololr: #2f303a;
 }
+html {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
 body {
   font-family: "Roboto";
 }
@@ -44,6 +50,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container-position {
+  display: flex;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -59,6 +68,7 @@ img {
   letter-spacing: 0.78px;
   padding-top: 24px;
   padding-bottom: 25px;
+  display: flex;
 }
 .logo:visited{
   color: #000;
@@ -69,6 +79,21 @@ img {
   letter-spacing: 0.78px;
 }
 
+/*Для того что бы слова были не с верху вниз а с право на лево*/
+.nav {
+  display: flex;
+}
+.nav-item:first-child{
+  margin-left: 93px;
+}
+.nav-item + .nav-item {
+  margin-left: 50px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav-link {
   color: var(--main-color);
   font-size: 14px;
@@ -79,11 +104,19 @@ img {
 .nav-link:hover {
   color: var(--acceent-color);
 }
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contact-item {
+  margin-left: 50px;
+  margin-right: auto;
+}
 .contact-link {
   color: var(--add-color);
   font-size: 14px;
   letter-spacing: 0.28px;
-  
 }
 .contact-link:focus,
 .contact-link:hover {
@@ -94,6 +127,12 @@ img {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-position {
+  
 }
 .hero-title {
   color: #fff;
@@ -112,11 +151,19 @@ img {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: flex;
+  margin: 0 auto;
   margin-top: 30px;
 }
 .praise {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.praise-list {
+  display: flex;
 }
 .praiser-title {
   color: var(--main-color);
@@ -134,6 +181,10 @@ img {
 .what-we-doing {
   padding-top: 94px;
 }
+.what-we-doing-list {
+  display: flex;
+  justify-content: space-between;
+}
 .what-we-doing-title {
   color: var(--main-color);
   text-align: center;
@@ -144,6 +195,13 @@ img {
 .team {
   padding-top: 94px;
 }
+.team-list {
+  display: flex;
+}
+.team-item {
+  margin-right: 30px;
+}
+
 .team-title {
   color: var(--main-color);
   text-align: center;
@@ -164,16 +222,21 @@ img {
   text-align: center;
   letter-spacing: 0.48px;
   padding-top: 10px;
+  margin-bottom: 124px;
 }
 .footer {
   background-color: #2f303a;
 }
 .logo-footer {
   color: #fff;
-  
+  margin-top: 60px;
 }
 .logo-footer:visited{
   color: #FFF;
+}
+.address {
+  display: flex;
+  flex-direction: column;
 }
 .footer-contact {
   color: var(--add-color);
