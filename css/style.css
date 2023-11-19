@@ -253,12 +253,29 @@ img {
 .product {
   padding-top: 94px;
 }
+.filter-list {
+  display: flex;
+  justify-content: space-evenly;
+}
 .filter-btn {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62; 
   letter-spacing: 0.48px;
+  border: none;
+}
+.filter-btn:hover {
+  border-radius: 4px;
+  padding: 6px 25px;
+  border-style: none;
+  background: var(--acceent-color);
+  color: #fff;
+  cursor: pointer;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 .projects-img {
   padding-top: 34px;
