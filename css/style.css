@@ -66,13 +66,14 @@ img {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px; */
+  /* padding-bottom: 25px; */
   display: flex;
-}
-.logo:visited{
   color: #000;
 }
+/* .logo:focus{
+  color: #000;
+} */
 .first-part-logo {
   color: var(--acceent-color);
   font-weight: 700;
