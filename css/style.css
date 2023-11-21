@@ -226,10 +226,11 @@ img {
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   color: #fff;
-  margin-top: 60px;
 }
 .logo-footer:visited{
   color: #FFF;
