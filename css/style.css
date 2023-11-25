@@ -66,14 +66,8 @@ img {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
-  /* padding-top: 24px; */
-  /* padding-bottom: 25px; */
-  display: flex;
   color: #000;
 }
-/* .logo:focus{
-  color: #000;
-} */
 .first-part-logo {
   color: var(--acceent-color);
   font-weight: 700;
@@ -131,9 +125,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.hero-position {
-  
 }
 .hero-title {
   color: #fff;
