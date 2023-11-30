@@ -123,10 +123,8 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.hero-title {
+.hero-title { 
   color: #fff;
   text-align: center;
   font-size: 44px;
