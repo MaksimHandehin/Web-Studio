@@ -106,7 +106,6 @@ img {
 }
 .contact-item {
   margin-left: 50px;
-  margin-right: auto;
 }
 .contact-link {
   color: var(--add-color);
@@ -218,6 +217,7 @@ img {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-top: 66px;
 }
 .logo-footer {
   color: #fff;
@@ -246,8 +246,10 @@ img {
 }
 .filter-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 8px;
 }
+
 .filter-btn {
   font-family: Roboto;
   font-size: 16px;
@@ -255,6 +257,8 @@ img {
   line-height: 1.62; 
   letter-spacing: 0.48px;
   border: none;
+  background-color: #F5F4FA;
+  padding: 6px 25px;
 }
 .filter-btn:hover {
   border-radius: 4px;
@@ -267,9 +271,11 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .projects-img {
   padding-top: 34px;
+  align-items: baseline;
 }
 .projects-title {
   font-size: 18px;
