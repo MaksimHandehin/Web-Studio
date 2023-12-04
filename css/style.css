@@ -172,7 +172,7 @@ img {
 }
 .what-we-doing-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .what-we-doing-title {
   color: var(--main-color);
@@ -186,6 +186,7 @@ img {
 }
 .team-list {
   display: flex;
+  gap: 30px;
 }
 .team-item {
   margin-right: 30px;
