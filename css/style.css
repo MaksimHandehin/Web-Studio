@@ -170,9 +170,17 @@ img {
 .what-we-doing {
   padding-top: 94px;
 }
+
 .what-we-doing-list {
   display: flex;
   gap: 30px;
+}
+.what-we-are-doing-item {
+  flex-basis: 370px;
+}
+.what-we-doing-img {
+  display: flex;
+  flex-basis: 370px;
 }
 .what-we-doing-title {
   color: var(--main-color);
@@ -190,8 +198,8 @@ img {
 }
 .team-item {
   margin-right: 30px;
+  flex-basis: 250px;
 }
-
 .team-title {
   color: var(--main-color);
   text-align: center;
