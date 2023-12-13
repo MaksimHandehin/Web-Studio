@@ -332,6 +332,10 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
+.projects-item {
+  /* display: flex; */
+  flex-basis: calc(100% / 3 - 30px);
+}
 .projects-img {
   padding-top: 34px;
   align-items: baseline;
