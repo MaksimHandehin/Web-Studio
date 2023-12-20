@@ -226,6 +226,7 @@ img {
 }
 .what-we-doing {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .what-we-doing-list {
@@ -257,8 +258,7 @@ img {
   
 }
 .team-item {
-  margin-right: 30px;
-  flex-basis: 250px;
+  flex-basis: calc(100% / 1 - 30px);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: #FFF;
   margin-bottom: 94px;
@@ -285,7 +285,7 @@ img {
   text-align: center;
   letter-spacing: 0.48px;
   padding-top: 10px;
-  margin-bottom: 124px;
+  margin-bottom: 30px;
 }
 .footer {
   background-color: #2f303a;
@@ -299,6 +299,7 @@ img {
   color: #fff;
 }
 .address {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -343,10 +344,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 .projects-item {
-  /* display: flex; */
-  margin-top: 50px;
   flex-basis: calc(100% / 3 - 30px);
   border: 1px solid #EEE;
 }
@@ -354,7 +355,6 @@ img {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .projects-img {
-  /* padding-top: 34px; */
   align-items: baseline;
 }
 .projects-title {
@@ -368,7 +368,6 @@ img {
   color: #757575;
   line-height: 1.87;
   letter-spacing: 0.48px;
-  padding-top: 4px;
   margin-left: 24px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
