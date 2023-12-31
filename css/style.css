@@ -118,11 +118,11 @@ img {
   color: var(--acceent-color);
 }
 .hero {
-  width: 100%;
-  height: 100%;
-  background: url('../images/hero-bg.jpg') lightgray center no-repeat;
+  width: 1600px;
+  background: url('../images/hero-bg.jpg') no-repeat lightgray;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 }
 .hero-title {
   color: #fff;
