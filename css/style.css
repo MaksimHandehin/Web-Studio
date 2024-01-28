@@ -119,7 +119,12 @@ img {
 }
 .hero {
   width: 1600px;
-  background: url('../images/hero-bg.jpg') no-repeat lightgray;
+  background: no-repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.40),
+      rgba(37, 48, 58, 0.40)
+    ), url('../images/hero-bg.jpg');
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
