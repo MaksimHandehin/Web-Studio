@@ -106,21 +106,24 @@ img {
   margin-left: auto;
 }
 .contact-item {
+  display: flex;
   margin-left: 50px;
 }
 
-.contact-icon-link:hover {
+/* .contact-icon-link:hover,
+.contact-icon-link:focus {
   fill: var(--acceent-color);
-}
+} */
 .contact-link {
   color: var(--add-color);
   font-size: 14px;
   letter-spacing: 0.28px;
+  margin-left: 10px;
 }
-
 .contact-link:focus,
 .contact-link:hover {
   color: var(--acceent-color);
+  fill: var(--acceent-color);
 }
 .hero {
   width: 1600px;
@@ -172,7 +175,14 @@ img {
 .praiser-item {
   margin-right: 30px;
 }
-.antenna::before {
+.icon-container {
+  padding: 25px 100px;
+  width: 270px;
+  background-color: #f5f4fa;
+  height: 120px;
+  border-radius: 4px;
+}
+/* .antenna::before {
   content: "";
   display: block;
   background-image: url("../images/antenna.png");
@@ -223,12 +233,13 @@ img {
   margin-bottom: 30px;
   margin-right: 30px;
   border-radius: 4px;
-}
+} */
 .praiser-title {
   color: var(--main-color);
   font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .praiser-info {
   color: var(--add-color);
@@ -277,6 +288,8 @@ img {
   margin-bottom: 94px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  width: 270px;
+  height: 428px;
 }
 .team-title {
   color: var(--main-color);
@@ -299,6 +312,16 @@ img {
   letter-spacing: 0.48px;
   padding-top: 10px;
   margin-bottom: 30px;
+}
+
+.social-media-container {
+  display: flex;
+}
+.social-media {
+  margin-left: 22px;
+  width: 44px;
+  height: 44px;
+  
 }
 .footer {
   background-color: #2f303a;
