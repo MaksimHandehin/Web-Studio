@@ -108,7 +108,8 @@ img {
 .contact-item {
   margin-left: 50px;
 }
-.email-link:hover {
+
+.contact-icon-link:hover {
   fill: var(--acceent-color);
 }
 .contact-link {
