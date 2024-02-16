@@ -307,6 +307,7 @@ img {
 .clients-item:hover {
   border: 1px solid var(--acceent-color);
   border-radius: 4px;
+  cursor: pointer;
   fill: var(--acceent-color);
 }
 .clients-icon {
@@ -314,6 +315,9 @@ img {
   height: 60px;
   fill: #757575;
 }
+/* .clients-icon:hover {
+  fill: var(--acceent-color);
+} */
 .clients-link {
   margin: 16px 32px;
 }
@@ -347,6 +351,25 @@ img {
 .footer-contact:first-child {
   color: #fff;
 }
+
+.sm-title {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sm-link {
+  margin-top: 20px;
+}
+.sm-icon {
+  width: 44px;
+  height: 44px;
+}
+/* .sm-link {
+  border-radius: 100%;
+  background-color: var(--acceent-color);
+} */
+
 /*Portfolio*/
 .product {
   padding-top: 94px;
