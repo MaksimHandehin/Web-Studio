@@ -351,7 +351,7 @@ img {
 .footer-contact:first-child {
   color: #fff;
 }
-
+/* 
 .sm-title {
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -364,12 +364,26 @@ img {
 .sm-icon {
   width: 44px;
   height: 44px;
-}
+} */
 /* .sm-link {
   border-radius: 100%;
   background-color: var(--acceent-color);
 } */
 
+.social-media-list {
+  display: flex;
+}
+
+.sm-link {
+  display: flex;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.sm-icon {
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+}
 /*Portfolio*/
 .product {
   padding-top: 94px;
