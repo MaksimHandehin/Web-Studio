@@ -203,24 +203,39 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.what-we-doing-list {
-  display: flex;
-  gap: 30px;
-}
-.what-we-are-doing-item {
-  flex-basis: 370px;
-}
-.what-we-doing-img {
-  display: flex;
-  flex-basis: 370px;
-}
 .what-we-doing-title {
   color: var(--main-color);
   text-align: center;
   font-size: 36px;
   letter-spacing: 1.08px;
   padding-bottom: 50px;
+}
+.what-we-doing-list {
+  display: flex;
+  gap: 30px;
+}
+.what-we-are-doing-item {
+  flex-basis: 370px;
+  position: relative;
+}
+.what-we-are-doing-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-photo {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
 .team {
   padding-top: 94px;
