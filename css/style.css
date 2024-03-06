@@ -124,7 +124,6 @@ img {
 }
 .contact-icon {
   margin-right: 10px;
-  /* fill: #757575; */
 }
 
 .hero {
@@ -166,6 +165,25 @@ img {
   margin: 0 auto;
   margin-top: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.backdrop {
+  position: fixed;
+  margin-left: 536px;
+  bottom: 222px;
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+}
+.backdrop .is-hidden {
+  opacity: 1;
+  pointer-events: none;
+}
+.modal-link {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid green;
 }
 .praise {
   padding-top: 94px;
@@ -286,10 +304,6 @@ img {
 .social-media-item {
   margin-right: 10px;
 }
-/* .social-media-item:hover {
-  background-color: var(--acceent-color);
-  border-radius: 50%;
-} */
 .social-media-container {
   display: flex;
 }
@@ -309,9 +323,9 @@ img {
   fill: #afb1b8;
 }
 
-/* .social-media:hover {
+.social-media:hover {
   fill: #fff;
-} */
+}
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
