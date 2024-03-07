@@ -153,8 +153,6 @@ img {
 .hero-btn {
   background: var(--acceent-color);
   color: #fff;
-  font-family: Roboto;
-  font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
@@ -166,7 +164,7 @@ img {
   margin-top: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.backdrop {
+/* .backdrop {
   position: fixed;
   margin-left: 536px;
   bottom: 222px;
@@ -184,7 +182,7 @@ img {
   display: flex;
   border-radius: 50%;
   border: 1px solid green;
-}
+} */
 .praise {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -317,14 +315,12 @@ img {
 .social-media-link:hover {
   background-color: var(--acceent-color);
   border-radius: 50%;
+}
+.social-media-link:hover .social-media {
   fill: #fff;
 }
 .social-media {
   fill: #afb1b8;
-}
-
-.social-media:hover {
-  fill: #fff;
 }
 .clients {
   padding-top: 94px;
@@ -352,14 +348,14 @@ img {
   border: 1px solid var(--acceent-color);
   border-radius: 4px;
   cursor: pointer;
-  /* fill: #2196f3; */
 }
 .clients-icon {
   width: 106px;
   height: 60px;
   fill: var(--add-color);
 }
-.clients-icon:hover {
+
+.clients-item:hover .clients-icon {
   fill: var(--acceent-color);
 }
 .clients-link {
