@@ -70,6 +70,7 @@
             Замовити послугу
           </button>
         </div>
+
         <div class="backdrop">
           <div class="modal">
             <button class="modal-btn">
@@ -81,22 +82,68 @@
             <form class="modal-form">
               <ul class="modal-list list">
                 <li class="modal-item">
-                  <label for="name" class="form-label">Ім'я</label><br>
-                  <input type="text" name="name" id="name"  class="form-input"/>
+                  <svg class="modal-icon name-icon" width="18" height="18">
+                    <use
+                      href="./icons/symbol-defs (2).svg#icon-form-name"
+                    ></use>
+                  </svg>
+                  <label for="name" class="form-label">Ім'я</label><br />
+                  <input type="text" name="name" id="name" class="form-input" />
                 </li>
                 <li class="modal-item">
-                  <label for="telephone" class="form-label">Телефон</label><br>
-                  <input type="tel" name="telephone" id="telephone"  class="form-input"/>
+                  <svg class="modal-icon tel-icon" width="18" height="18">
+                    <use
+                      href="./icons/symbol-defs (2).svg#icon-form-phone"
+                    ></use>
+                  </svg>
+                  <label for="telephone" class="form-label">Телефон</label
+                  ><br />
+                  <input
+                    type="tel"
+                    name="telephone"
+                    id="telephone"
+                    class="form-input"
+                  />
                 </li>
                 <li class="modal-item">
-                  <label for="email" class="form-label">Пошта</label><br>
-                  <input type="email" name="email" id="email" class="form-input" />
+                  <svg class="modal-icon mail-icon" width="18" height="18">
+                    <use
+                      href="./icons/symbol-defs (2).svg#icon-form-email"
+                    ></use>
+                  </svg>
+                  <label for="email" class="form-label">Пошта</label><br />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-input"
+                  />
                 </li>
                 <li class="modal-item">
                   <label for="comment" class="form-label">Коментар</label>
-                  <input type="text" name="comment" id="comment" class="form-input form-comment">
+                  <input
+                    type="text"
+                    name="comment"
+                    id="comment"
+                    class="form-input form-comment"
+                  />
+                </li>
+                <li class="modal-item">
+                  <div class="rules">
+                    <input
+                      type="checkbox"
+                      name="rules"
+                      id="rules"
+                      class="rules-contract"
+                    />
+                    <p class="rules-text">
+                      Погоджуюся з розсилкою та приймаю
+                      <a href="#" class="rules-link">Умовами договору</a>
+                    </p>
+                  </div>
                 </li>
               </ul>
+              <button class="send-btn">Відправити</button>
             </form>
           </div>
         </div>

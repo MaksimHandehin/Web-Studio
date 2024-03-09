@@ -191,6 +191,8 @@ img {
   background-color: transparent;
   height: 30px;
   width: 30px;
+  display: flex;
+  align-items: center;
 }
 .modal-title {
   font-size: 20px;
@@ -204,7 +206,23 @@ img {
   margin-top: 12px;
 }
 .modal-item {
+  margin-top: 10px;
   margin-left: 40px;
+}
+.name-icon {
+  position: absolute;
+  top: 104px;
+  left: 52px;
+}
+.tel-icon {
+  position: absolute;
+  top: 172px;
+  left: 52px;
+}
+.mail-icon {
+  position: absolute;
+  top: 240px;
+  left: 52px;
 }
 .form-label {
   font-size: 12px;
@@ -219,6 +237,31 @@ img {
 }
 .form-comment {
   height: 138px;
+}
+.rules {
+  display: flex;
+}
+.rules-text {
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--add-color);
+  margin-left: 8px;
+}
+.rules-link {
+  color: var(--acceent-color);
+}
+.send-btn {
+  background: var(--acceent-color);
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 52px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .praise {
   padding-top: 94px;
