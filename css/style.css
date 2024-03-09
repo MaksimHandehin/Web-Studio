@@ -176,6 +176,10 @@ img {
   );
   top: 221px;
 }
+.backdrop .is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 .modal {
   position: absolute;
   background-color: #fff;
@@ -193,6 +197,7 @@ img {
   width: 30px;
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 .modal-title {
   font-size: 20px;
@@ -211,17 +216,17 @@ img {
 }
 .name-icon {
   position: absolute;
-  top: 104px;
+  top: 112px;
   left: 52px;
 }
 .tel-icon {
   position: absolute;
-  top: 172px;
+  top: 180px;
   left: 52px;
 }
 .mail-icon {
   position: absolute;
-  top: 240px;
+  top: 248px;
   left: 52px;
 }
 .form-label {
