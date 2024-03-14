@@ -241,9 +241,11 @@ img {
   width: 448px;
   height: 40px;
   padding-left: 42px;
+  outline: none;
 }
-.form-input:hover {
-  border-color: var(--acceent-color);
+.form-input:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .form-comment {
   padding-left: 16px;
@@ -252,6 +254,7 @@ img {
   font-size: 12px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  resize: none;
 }
 .rules {
   display: flex;
@@ -525,6 +528,42 @@ img {
 }
 .sm-icon {
   fill: #fff;
+}
+.rosette {
+  margin-left: 93px;
+}
+.rosette-title {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.rossete-form {
+  margin-top: 20px;
+}
+.rossete-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+}
+.rossete-btn {
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  background: var(--acceent-color);
+  border: none;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  margin-left: 12px;
+  position: absolute;
+}
+.rosette-icon {
+  position: relative;
 }
 /*Portfolio*/
 .product {
