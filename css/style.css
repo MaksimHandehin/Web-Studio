@@ -537,6 +537,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+  position: absolute;
 }
 .rossete-form {
   margin-top: 20px;
@@ -547,6 +548,7 @@ img {
   width: 358px;
   height: 50px;
   background-color: transparent;
+  padding-left: 16px;
 }
 .rossete-btn {
   border-radius: 4px;
@@ -560,10 +562,12 @@ img {
   text-align: center;
   color: #fff;
   margin-left: 12px;
-  position: absolute;
+  /* position: absolute; */
 }
 .rosette-icon {
   position: relative;
+  left: 537px;
+  bottom: 38px;
 }
 /*Portfolio*/
 .product {
