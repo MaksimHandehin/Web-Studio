@@ -242,7 +242,7 @@ img {
   padding-left: 42px;
   outline: none;
 }
-.form-input:focus { 
+.form-input:focus {
   border: 1px solid var(--acceent-color);
   border-radius: 4px;
   fill: var(--acceent-color);
@@ -609,6 +609,7 @@ img {
 .projects-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  overflow: visible;
 }
 .projects-img {
   align-items: baseline;
@@ -626,4 +627,21 @@ img {
   letter-spacing: 0.48px;
   margin-left: 24px;
   padding-bottom: 20px;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.text-box {
+  position: absolute;
+  background-color: rgba(33, 150, 243, 0.9);
+  bottom: 30px;
+  width: 358px;
+  height: 294px;
+}
+.box-description {
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
