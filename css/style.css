@@ -609,7 +609,7 @@ img {
 .projects-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-  overflow: visible;
+  cursor: pointer;
 }
 .projects-img {
   align-items: baseline;
@@ -635,7 +635,7 @@ img {
 .text-box {
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
-  bottom: 30px;
+  bottom: 0;
   width: 358px;
   height: 294px;
 }
@@ -644,4 +644,8 @@ img {
   line-height: 156%;
   letter-spacing: 0.03em;
   color: #fff;
+}
+.projects-item:hover .box{
+  overflow: visible;
+  transform: translateX(0);
 }
