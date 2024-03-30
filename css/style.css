@@ -84,11 +84,19 @@ img {
   justify-content: space-between;
   position: relative;
 }
-.nav-item:first-child {
-  margin-left: 93px;
+.nav-item {
+  height: 17px;
 }
 .nav-item + .nav-item {
   margin-left: 50px;
+}
+.nav-item:first-child {
+  margin-left: 93px;
+
+  transition-property: content, border-radius, width, height, background,
+    /* position, top, left */;
+  transition-duration: 2500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item:first-child:hover::after {
   content: "";
@@ -124,7 +132,7 @@ img {
 .nav-link:focus,
 .nav-link:hover {
   color: var(--acceent-color);
-}/*One*/ /*Done*/
+} /*One*/ /*Done*/
 
 .contact-list {
   display: flex;
@@ -152,7 +160,7 @@ img {
 .contact-link:hover {
   color: var(--acceent-color);
   fill: var(--acceent-color);
-}/*Two*/
+} /*Two*/
 .contact-icon {
   margin-right: 10px;
 }
@@ -323,7 +331,7 @@ img {
 .send-btn:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #188ce8;
-}/*Three*/
+} /*Three*/
 .praise {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -460,7 +468,7 @@ img {
 .social-media-link:hover {
   background-color: var(--acceent-color);
   border-radius: 50%;
-}/*Four*/
+} /*Four*/
 .social-media-link:hover .social-media {
   fill: #fff;
 }
@@ -497,7 +505,7 @@ img {
   border: 1px solid var(--acceent-color);
   border-radius: 4px;
   cursor: pointer;
-}/*Five*/
+} /*Five*/
 .clients-icon {
   width: 106px;
   height: 60px;
@@ -638,7 +646,8 @@ img {
   background-color: #f5f4fa;
   padding: 6px 25px;
 
-  transition-property: cusror, color, background, border-radius, border-style, padding;
+  transition-property: cusror, color, background, border-radius, border-style,
+    padding;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -649,7 +658,7 @@ img {
   background: var(--acceent-color);
   color: #fff;
   cursor: pointer;
-}/*Six*/ 
+} /*Six*/
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -709,4 +718,4 @@ img {
 .projects-item:hover .box {
   overflow: visible;
   transform: translateX(0);
-}/*Eight*/
+} /*Eight*/
