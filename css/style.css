@@ -92,10 +92,19 @@ img {
 }
 .nav-item:first-child {
   margin-left: 93px;
-
+}
+.nav-item:first-child::after {
+  content: "";
   transition-property: content, border-radius, width, height, background,
-    /* position, top, left */;
-  transition-duration: 2500ms;
+    position, top, left;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-item:nth-child(2)::after {
+  content: "";
+  transition-property: content, border-radius, width, height, background,
+    position, top, left;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item:first-child:hover::after {
