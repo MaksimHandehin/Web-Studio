@@ -78,27 +78,17 @@ img {
 .nav {
   display: flex;
 }
-.nav-item:first-child {
-  margin-left: 93px;
-}
-.nav-item + .nav-item {
-  margin-left: 50px;
-}
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
-.nav-link {
-  color: var(--main-color);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
+.nav-item:first-child {
+  margin-left: 93px;
 }
-.nav-link:focus,
-.nav-link:hover {
-  color: var(--acceent-color);
+.nav-item + .nav-item {
+  margin-left: 50px;
 }
 .nav-item:first-child:hover::after {
   content: "";
@@ -120,6 +110,22 @@ img {
   top: 38px;
   left: 186px;
 }
+
+.nav-link {
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--acceent-color);
+}/*One*/ /*Done*/
+
 .contact-list {
   display: flex;
   align-items: center;
@@ -137,12 +143,16 @@ img {
   margin-left: 10px;
   display: flex;
   align-items: center;
+
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+  transition-duration: 250ms;
 }
 .contact-link:focus,
 .contact-link:hover {
   color: var(--acceent-color);
   fill: var(--acceent-color);
-}
+}/*Two*/
 .contact-icon {
   margin-right: 10px;
 }
@@ -262,6 +272,10 @@ img {
   height: 40px;
   padding-left: 42px;
   outline: none;
+
+  transition-property: border, border-radius, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
   border: 1px solid var(--acceent-color);
@@ -301,11 +315,15 @@ img {
   padding: 10px 52px;
   margin: 0 auto;
   margin-top: 30px;
+
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow, background;
+  transition-duration: 250ms;
 }
 .send-btn:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #188ce8;
-}
+}/*Three*/
 .praise {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -434,11 +452,15 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
+
+  transition-property: background-color, border-radius, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link:hover {
   background-color: var(--acceent-color);
   border-radius: 50%;
-}
+}/*Four*/
 .social-media-link:hover .social-media {
   fill: #fff;
 }
@@ -466,12 +488,16 @@ img {
   display: flex;
   justify-content: center;
   margin-left: 30px;
+
+  transition-property: border, border-radius, cursor, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-item:hover {
   border: 1px solid var(--acceent-color);
   border-radius: 4px;
   cursor: pointer;
-}
+}/*Five*/
 .clients-icon {
   width: 106px;
   height: 60px;
@@ -533,6 +559,10 @@ img {
 }
 .sm-item {
   margin-right: 10px;
+
+  transition-property: background-color, border-radius;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sm-item:hover {
   background-color: var(--acceent-color);
@@ -607,6 +637,10 @@ img {
   border: none;
   background-color: #f5f4fa;
   padding: 6px 25px;
+
+  transition-property: cusror, color, background, border-radius, border-style, padding;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:hover {
   border-radius: 4px;
@@ -615,7 +649,7 @@ img {
   background: var(--acceent-color);
   color: #fff;
   cursor: pointer;
-}
+}/*Six*/ 
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -626,8 +660,12 @@ img {
 .projects-item {
   flex-basis: calc(100% / 3 - 30px);
   border: 1px solid #eee;
+
+  transition-property: box-shadow, cursor, overflow, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects-item:hover {
+.projects-item:hover/*Seven*/ {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   cursor: pointer;
@@ -671,4 +709,4 @@ img {
 .projects-item:hover .box {
   overflow: visible;
   transform: translateX(0);
-}
+}/*Eight*/
