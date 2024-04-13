@@ -718,7 +718,7 @@ img {
   padding-left: 24px;
   transform: translateY(100%);
 }
-.projects-item:hover .box{
+.projects-item:hover .box, .box-description{
   overflow: visible;
   transform: translateY(0);  
 }
