@@ -716,8 +716,9 @@ img {
   justify-content: center;
   align-items: center;
   padding-left: 24px;
+  transform: translateY(100%);
 }
-.projects-item:hover .box {
+.projects-item:hover .box{
   overflow: visible;
-  transform: translateX(0);
+  transform: translateY(0);  
 }
